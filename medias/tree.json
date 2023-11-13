@@ -1,0 +1,15 @@
+{
+	"fr": {
+		"home": "accueil",
+		"about": "à propos",
+		"team": "équipe",
+		"contact": "contact",
+		"blog": "journal",
+		"project": "projet",
+		"gallery": "galerie",
+		"portfolio": "portfolio",
+		"login": "se connecter",
+		"logout": "se déconnecter",
+		"legal": "mentions légales"
+	}
+}
