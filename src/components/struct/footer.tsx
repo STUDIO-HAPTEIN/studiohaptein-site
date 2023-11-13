@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 // APP
 import { Legal, InfoFooter } from "../menu/menu_footer";
 import { get_css_value } from "../../utils/tools";
-import { ButtonPictoNav } from "../hc";
+import { ButtonPictoNav, ButtonNav } from "../hc";
 // MEDIA
 // import picto_instagram from 
 import picto_linkedin from "../../../medias/picto/linkedin_jaune.svg";
@@ -66,6 +66,11 @@ export function Footer() {
 			src={picto_linkedin}
 			what="linkedin"
 			href="https://www.linkedin.com/in/ivanjukanovic/"
+    />
+		<InfoFooter style={style_cell}>|</InfoFooter>
+		<ButtonNav
+			what="Edith Studio"
+			href="https://www.edith-studio.fr/"
     />
 		<InfoFooter style={style_cell}>|</InfoFooter>
 		<Legal/>
