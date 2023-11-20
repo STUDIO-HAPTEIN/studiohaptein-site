@@ -24,7 +24,7 @@ const style_footer = {
 	alignItems: "center",
 	justifyContent : "center",
 	width: "100%",
-	height: "50px",
+	height: "70px",
 	color: get_css_value("--color_text_light"),
 	background: get_css_value("--color_footer"),
 }
@@ -69,7 +69,7 @@ export function Footer() {
     />
 		<InfoFooter style={style_cell}>|</InfoFooter>
 		<ButtonNav
-			what="Edith Studio"
+			what="Edith Studioy"
 			href="https://www.edith-studio.fr/"
     />
 		<InfoFooter style={style_cell}>|</InfoFooter>
